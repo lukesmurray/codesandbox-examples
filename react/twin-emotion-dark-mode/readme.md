@@ -5,5 +5,5 @@
 ## Getting Started
 
 ```shell
-npx degit https://github.com/alexperronnet/codesandbox-examples/react/twin-react-emotion-dark-mode
+npx degit https://github.com/alexperronnet/codesandbox-examples/react/twin-emotion-dark-mode
 ```
