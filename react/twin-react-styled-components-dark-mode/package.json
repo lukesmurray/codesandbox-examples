@@ -1,6 +1,5 @@
 {
   "name": "twin-react-styled-components-dark-mode",
-  "main": "src/index.js",
   "scripts": {
     "start": "parcel public/index.html --open",
     "build": "parcel build public/index.html",
