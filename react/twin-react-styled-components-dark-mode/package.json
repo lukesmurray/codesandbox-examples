@@ -1,0 +1,31 @@
+{
+  "name": "twin-react-styled-components-dark-mode",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "babelMacros": {
+    "twin": {
+      "config": "tailwind.config.js",
+      "preset": "styled-components",
+      "autoCssProp": true,
+      "debugProp": true,
+      "debugPlugins": false,
+      "debug": false
+    }
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.9",
+    "babel-plugin-macros": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
+    "twin.macro": "^1.12.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.0"
+  }
+}
