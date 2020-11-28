@@ -5,5 +5,5 @@
 ## Getting Started
 
 ```shell
-npx degit https://github.com/alexperronnet/codesandbox-examples/react/twin-react-styled-components-dark-mode
+npx degit https://github.com/alexperronnet/codesandbox-examples/react/twin-styled-components-dark-mode
 ```
