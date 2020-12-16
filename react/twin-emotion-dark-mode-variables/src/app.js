@@ -1,14 +1,15 @@
 import React from "react"
 import { Global } from "@emotion/react"
 import { GlobalStyles } from "twin.macro"
-import { stylesBase, ThemeToggle, Logo } from "./components"
+
+import { stylesBase, ThemeToggle, Logos } from "./components"
 
 const App = () => (
   <div>
     <GlobalStyles />
     <Global styles={stylesBase} />
     <div tw="h-screen flex flex-col items-center">
-      <Logo />
+      <Logos />
       <div tw="h-full flex justify-center items-center">
         <ThemeToggle />
       </div>
