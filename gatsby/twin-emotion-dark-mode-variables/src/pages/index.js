@@ -1,14 +1,12 @@
 import React from "react"
-import { Global } from "@emotion/react"
-import { GlobalStyles } from "twin.macro"
-import { stylesBase, ThemeToggle, Logo } from "./../components"
+import "twin.macro"
+
+import { Layout, ThemeToggle, Logos } from "./../components"
 
 const Home = () => (
-  <div>
-    <GlobalStyles />
-    <Global styles={stylesBase} />
+  <Layout>
     <div tw="h-screen flex flex-col items-center">
-      <Logo />
+      <Logos />
       <div tw="h-full flex justify-center items-center">
         <ThemeToggle />
       </div>
@@ -21,7 +19,7 @@ const Home = () => (
         @alexperronnet
       </a>
     </div>
-  </div>
+  </Layout>
 )
 
 export default Home

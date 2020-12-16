@@ -2,22 +2,22 @@ import tw, { css } from "twin.macro"
 
 const stylesBase = css`
   .light {
-    --bg-primary: #FFFFFF;
-    --bg-secondary: #F1F5F9;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f1f5f9;
     --text-primary: #475569;
-    --text-secondary: #1E293B;
-    --color-primary: #E11D48;
+    --text-secondary: #1e293b;
+    --color-primary: #e11d48;
   }
   .dark {
-    --bg-primary: #0F172A;
-    --bg-secondary: #1E293B;
-    --text-primary: #CBD5E1;
-    --text-secondary: #FFFFFF;
-    
-    --color-primary: #2563EB;
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --text-primary: #cbd5e1;
+    --text-secondary: #ffffff;
+
+    --color-primary: #2563eb;
   }
   body {
-    ${tw `bg-primary text-primary transition-all duration-200`}
+    ${tw`bg-primary text-primary transition-all duration-200`}
   }
 `
 
