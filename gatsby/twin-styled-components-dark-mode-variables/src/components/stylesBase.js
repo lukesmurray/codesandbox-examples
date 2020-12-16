@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components"
 import tw from "twin.macro"
+import { createGlobalStyle } from "styled-components"
 
 const StylesBase = createGlobalStyle`
   .light {
@@ -18,7 +18,7 @@ const StylesBase = createGlobalStyle`
     --color-primary: #2563EB;
   }
   body {
-    ${tw `bg-primary text-primary transition-all duration-200`}
+    ${tw`bg-primary text-primary transition-all duration-200`}
   }
 `
 
