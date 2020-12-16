@@ -1,7 +1,7 @@
 import React from "react"
 import "twin.macro"
 
-const Logo = () => (
+const Logos = () => (
   <div tw="flex space-x-10 mt-10 items-center">
     <a
       tw="w-20 block fill-current text-primary hover:text-secondary duration-100"
@@ -28,4 +28,4 @@ const Logo = () => (
   </div>
 )
 
-export default Logo
+export default Logos
